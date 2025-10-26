@@ -1,0 +1,15 @@
+D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.exe.config
+D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.exe
+D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.pdb
+D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.csproj.AssemblyReference.cache
+D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.csproj.CoreCompileInputs.cache
+D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.exe
+D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.pdb
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\bin\Debug\Préda naplo.exe.config
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\bin\Debug\Préda naplo.exe
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\bin\Debug\Préda naplo.pdb
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\obj\Debug\Préda naplo.csproj.AssemblyReference.cache
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\obj\Debug\Préda naplo.exe.config
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\obj\Debug\Préda naplo.csproj.CoreCompileInputs.cache
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\obj\Debug\Préda naplo.exe
+C:\Users\nemon\Source\Repos\Preda-naplo\Préda naplo\obj\Debug\Préda naplo.pdb
