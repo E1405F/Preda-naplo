@@ -1,7 +1,0 @@
-D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.exe.config
-D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.exe
-D:\Préda napló\Préda naplo\Préda naplo\bin\Debug\Préda naplo.pdb
-D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.csproj.AssemblyReference.cache
-D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.csproj.CoreCompileInputs.cache
-D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.exe
-D:\Préda napló\Préda naplo\Préda naplo\obj\Debug\Préda naplo.pdb
