@@ -1,0 +1,2 @@
+﻿Bence;123;Üveges Bence;Ganz;Diák
+Norbi;12345;nga;ganz;Igazgató
