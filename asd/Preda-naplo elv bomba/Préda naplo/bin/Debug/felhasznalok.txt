@@ -1,0 +1,6 @@
+﻿Bence;123;Üveges Bence;Ganz;Diák
+Norbi;12345;nga;ganz;Igazgató
+Halo;Halo;Sziojo;GAnz;Adminisztrátor
+halo;halo;szijobijo;asd;Tanár
+;;;;Diák;10.a
+a;a;a;a;Tanár;
