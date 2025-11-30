@@ -1,5 +1,0 @@
-;a;matek;5;2025.11.29;é;1;True;sigma;True
-;a;Matek;4;2025.11.29;;1;False;;False
-Bence;halo;Matek;5;2025.11.30;szar vagy;1;True;nem vagyok szar;True
-Bence;halo;Matek;4;2025.11.30;jo vagy;4;False;;False
-;halo;Német;1;2025.11.30;szarok vagytok;1;False;;False

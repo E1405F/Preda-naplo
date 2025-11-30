@@ -10,11 +10,13 @@ namespace Préda_naplo
         private List<Hianyzas> hianyzasok;
         private string fajlEleres;
         private List<Felhasznalo> felhasznalok;
+        private Dictionary<string, string> szuloGyerekKapcsolat;
 
-        public HianyzasManager(string fajlEleres, List<Felhasznalo> felhasznalok)
+        public HianyzasManager(string fajlEleres, List<Felhasznalo> felhasznalok, Dictionary<string, string> szuloGyerekKapcsolat)
         {
             this.fajlEleres = fajlEleres;
             this.felhasznalok = felhasznalok;
+            this.szuloGyerekKapcsolat = szuloGyerekKapcsolat;
             hianyzasok = new List<Hianyzas>();
             BetoltFajlbol();
         }
@@ -28,28 +30,50 @@ namespace Préda_naplo
             }
 
             Console.WriteLine("\n=== HIÁNYZÁS RÖGZÍTÉSE ===");
-            Console.Write("Diák felhasználóneve: ");
-            string diakFelh = Console.ReadLine();
 
-            var diak = felhasznalok.FirstOrDefault(f => f.Felhasznalonev == diakFelh && f.Szerepkor == "Diák");
-            if (diak == null)
+            // Osztály kiválasztása
+            Console.Write("Osztály (pl. 8.A): ");
+            string osztaly = Console.ReadLine();
+
+            var osztalyDiakjai = felhasznalok
+                .Where(f => f.Szerepkor == "Diák" && f.Osztaly == osztaly)
+                .ToList();
+
+            if (!osztalyDiakjai.Any())
             {
-                Console.WriteLine("❌ Nem található ilyen diák!");
+                Console.WriteLine($"❌ Nem található diák a(z) {osztaly} osztályban!");
                 return;
             }
 
-            Console.Write("Dátum (éééé.hh.nn, üresen hagyva ma): ");
+            Console.WriteLine($"\n{osztaly} osztály diákjai:");
+            foreach (var diak in osztalyDiakjai)
+            {
+                Console.WriteLine($"  - {diak.Nev} ({diak.Felhasznalonev})");
+            }
+
+            Console.Write("\nDátum (éééé.hh.nn, üresen hagyva ma): ");
             string datumInput = Console.ReadLine();
             DateTime datum = string.IsNullOrEmpty(datumInput) ? DateTime.Now : DateTime.Parse(datumInput);
 
             Console.Write("Óra/tantárgy: ");
             string ora = Console.ReadLine();
 
-            Hianyzas uj = new Hianyzas(diakFelh, tanar.Felhasznalonev, datum, ora, false);
-            hianyzasok.Add(uj);
-            File.AppendAllText(fajlEleres, uj.ToFileFormat() + Environment.NewLine);
+            // Minden diák hiányzásának rögzítése
+            foreach (var diak in osztalyDiakjai)
+            {
+                Console.Write($"\n{diak.Nev} hiányzott? (i/n): ");
+                string valasz = Console.ReadLine().ToLower();
 
-            Console.WriteLine($"✅ Hiányzás rögzítve: {diak.Nev} - {datum:yyyy.MM.dd} - {ora}");
+                if (valasz == "i")
+                {
+                    Hianyzas uj = new Hianyzas(diak.Felhasznalonev, tanar.Felhasznalonev, datum, ora, false);
+                    hianyzasok.Add(uj);
+                    File.AppendAllText(fajlEleres, uj.ToFileFormat() + Environment.NewLine);
+                    Console.WriteLine($"✅ Hiányzás rögzítve: {diak.Nev}");
+                }
+            }
+
+            Console.WriteLine($"\n✅ Hiányzás rögzítés befejezve!");
         }
 
         public void HianyzasIgazolasa(Felhasznalo felhasznalo)
@@ -115,6 +139,86 @@ namespace Préda_naplo
                 string diakNev = diak?.Nev ?? hianyzas.DiakFelhasznalonev;
 
                 Console.WriteLine($"{diakNev} - {hianyzas.Datum:yyyy.MM.dd} - {hianyzas.Ora} - {(hianyzas.Igazolt ? "✅ Igazolva" : "❌ Igazolatlan")}");
+            }
+        }
+
+        // HIÁNYZÓ METÓDUS: Hiányzások számának lekérdezése diák szerint
+        public int GetHianyzasokSzama(string diakFelhasznalonev)
+        {
+            return hianyzasok.Count(h => h.DiakFelhasznalonev == diakFelhasznalonev);
+        }
+
+        // HIÁNYZÓ METÓDUS: Hiányzási statisztikák osztályonként
+        public Dictionary<string, int> GetHianyzasStatisztikak()
+        {
+            var statisztikak = new Dictionary<string, int>();
+
+            var hianyzasokOsztalySzerint = hianyzasok
+                .GroupBy(h => {
+                    var diak = felhasznalok.FirstOrDefault(f => f.Felhasznalonev == h.DiakFelhasznalonev && f.Szerepkor == "Diák");
+                    return diak?.Osztaly ?? "Ismeretlen";
+                })
+                .Where(g => g.Key != "Ismeretlen");
+
+            foreach (var osztalyGroup in hianyzasokOsztalySzerint)
+            {
+                statisztikak.Add(osztalyGroup.Key, osztalyGroup.Count());
+            }
+
+            return statisztikak;
+        }
+
+        // HIÁNYZÓ METÓDUS: Szülői hiányzás igazolás
+        public void SzuloHianyzasIgazolasa(Felhasznalo szulo)
+        {
+            if (szulo.Szerepkor != "Szülő")
+            {
+                Console.WriteLine("❌ Csak szülők használhatják ezt a funkciót!");
+                return;
+            }
+
+            Console.WriteLine("\n=== HIÁNYZÁS IGAZOLÁSA (SZÜLŐI) ===");
+
+            // Gyermek felhasználónevének lekérése a kapcsolatból
+            if (!szuloGyerekKapcsolat.TryGetValue(szulo.Felhasznalonev, out string gyerekFelhasznalonev))
+            {
+                Console.WriteLine("❌ Nincs gyermeked hozzárendelve a fiókodhoz!");
+                return;
+            }
+
+            var gyerek = felhasznalok.FirstOrDefault(f => f.Felhasznalonev == gyerekFelhasznalonev);
+            if (gyerek == null)
+            {
+                Console.WriteLine("❌ A hozzárendelt gyermek nem található!");
+                return;
+            }
+
+            Console.WriteLine($"Gyermeked: {gyerek.Nev} ({gyerekFelhasznalonev})");
+
+            var igazolatlanHianyzasok = hianyzasok
+                .Where(h => h.DiakFelhasznalonev == gyerekFelhasznalonev && !h.Igazolt)
+                .ToList();
+
+            if (!igazolatlanHianyzasok.Any())
+            {
+                Console.WriteLine("Nincsenek igazolatlan hiányzások.");
+                return;
+            }
+
+            Console.WriteLine($"\nIgazolatlan hiányzások:");
+            for (int i = 0; i < igazolatlanHianyzasok.Count; i++)
+            {
+                var hianyzas = igazolatlanHianyzasok[i];
+                Console.WriteLine($"[{i + 1}] {hianyzas.Datum:yyyy.MM.dd} - {hianyzas.Ora}");
+            }
+
+            Console.Write("\nVálassz hiányzást a sorszámával (0 - mégsem): ");
+            if (int.TryParse(Console.ReadLine(), out int valasztas) && valasztas > 0 && valasztas <= igazolatlanHianyzasok.Count)
+            {
+                var kivalasztott = igazolatlanHianyzasok[valasztas - 1];
+                kivalasztott.Igazolt = true;
+                FrissitFajl();
+                Console.WriteLine("✅ Hiányzás sikeresen igazolva!");
             }
         }
 

@@ -9,34 +9,33 @@ namespace Préda_naplo
     {
         private List<Felhasznalo> felhasznalok;
         private string fajlEleres;
+        private Dictionary<string, string> szuloGyerekKapcsolat;
+        private string szuloGyerekFajl;
+        private string titkosKod;
 
-        public Regisztracio(List<Felhasznalo> felhasznalok, string fajlEleres)
+        public Regisztracio(List<Felhasznalo> felhasznalok, string fajlEleres, Dictionary<string, string> szuloGyerekKapcsolat, string szuloGyerekFajl, string titkosKod)
         {
             this.felhasznalok = felhasznalok;
             this.fajlEleres = fajlEleres;
+            this.szuloGyerekKapcsolat = szuloGyerekKapcsolat;
+            this.szuloGyerekFajl = szuloGyerekFajl;
+            this.titkosKod = titkosKod;
         }
 
         public void UjFelhasznalo()
         {
             Console.WriteLine("\n=== ÚJ FELHASZNÁLÓ REGISZTRÁLÁSA ===");
 
-            Console.Write("Felhasználónév: ");
-            string felh = Console.ReadLine();
-
+            string felh = BeolvasKotelezoMezo("Felhasználónév: ");
             if (felhasznalok.Any(f => f.Felhasznalonev == felh))
             {
                 Console.WriteLine("❌ Ez a felhasználónév már létezik!");
                 return;
             }
 
-            Console.Write("Jelszó: ");
-            string jelszo = ReadPassword();
-
-            Console.Write("Teljes név: ");
-            string nev = Console.ReadLine();
-
-            Console.Write("Iskola neve: ");
-            string iskola = Console.ReadLine();
+            string jelszo = BeolvasKotelezoMezo("Jelszó: ", true);
+            string nev = BeolvasKotelezoMezo("Teljes név: ");
+            string iskola = BeolvasKotelezoMezo("Iskola neve: ");
 
             string osztaly = "";
             string szerep = "";
@@ -57,14 +56,14 @@ namespace Préda_naplo
                 {
                     case "1":
                         szerep = "Diák";
-                        Console.Write("Osztály (pl. 10.A): ");
-                        osztaly = Console.ReadLine();
+                        osztaly = BeolvasOsztaly();
                         helyes = true;
                         break;
                     case "2":
                         szerep = "Tanár";
-                        Console.Write("Osztály (opcionális, pl. 10.A osztályfőnök): ");
-                        osztaly = Console.ReadLine();
+                        if (!EllenorizTitkosKod())
+                            return;
+                        osztaly = BeolvasOsztalyOpcionalis();
                         helyes = true;
                         break;
                     case "3":
@@ -73,10 +72,14 @@ namespace Préda_naplo
                         break;
                     case "4":
                         szerep = "Igazgató";
+                        if (!EllenorizTitkosKod())
+                            return;
                         helyes = true;
                         break;
                     case "5":
                         szerep = "Adminisztrátor";
+                        if (!EllenorizTitkosKod())
+                            return;
                         helyes = true;
                         break;
                     default:
@@ -87,6 +90,8 @@ namespace Préda_naplo
             } while (!helyes);
 
             Felhasznalo uj;
+            string gyerekFelhasznalonev = "";
+
             switch (szerep)
             {
                 case "Diák":
@@ -96,11 +101,16 @@ namespace Préda_naplo
                     uj = new Tanar(felh, jelszo, nev, iskola, osztaly);
                     break;
                 case "Szülő":
+                    gyerekFelhasznalonev = BeolvasGyerekFelhasznalonev();
+                    if (string.IsNullOrEmpty(gyerekFelhasznalonev))
+                        return;
                     uj = new Szulo(felh, jelszo, nev, iskola);
                     break;
                 case "Igazgató":
                     uj = new Igazgato(felh, jelszo, nev, iskola);
                     break;
+                // A regisztráció résznél az Admin létrehozása maradjon így:
+
                 case "Adminisztrátor":
                     uj = new Admin(felh, jelszo, nev, iskola);
                     break;
@@ -112,10 +122,116 @@ namespace Préda_naplo
             felhasznalok.Add(uj);
             File.AppendAllText(fajlEleres, uj.ToFileFormat() + Environment.NewLine);
 
+            // Szülő-gyerek kapcsolat mentése
+            if (szerep == "Szülő" && !string.IsNullOrEmpty(gyerekFelhasznalonev))
+            {
+                szuloGyerekKapcsolat[felh] = gyerekFelhasznalonev;
+                File.AppendAllText(szuloGyerekFajl, $"{felh};{gyerekFelhasznalonev}" + Environment.NewLine);
+            }
+
             Console.WriteLine($"\n✅ Sikeres regisztráció, üdvözlünk {nev} ({szerep}) a {iskola} iskolából!" +
                 (string.IsNullOrEmpty(osztaly) ? "" : $" Osztály: {osztaly}"));
 
-            Console.WriteLine("Nyomj ENTER-t a visszalépéshez..."); // ✅ VISSZAIJELZÉS
+            Console.WriteLine("Nyomj ENTER-t a visszalépéshez...");
+            Console.ReadLine();
+        }
+
+        private string BeolvasKotelezoMezo(string uzenet, bool jelszo = false)
+        {
+            string ertek;
+            do
+            {
+                Console.Write(uzenet);
+                if (jelszo)
+                    ertek = ReadPassword();
+                else
+                    ertek = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(ertek))
+                {
+                    Console.WriteLine("❌ Ez a mező kötelező! Adj meg egy értéket.");
+                }
+            } while (string.IsNullOrWhiteSpace(ertek));
+
+            return ertek;
+        }
+
+        private string BeolvasOsztaly()
+        {
+            string osztaly;
+            do
+            {
+                Console.Write("Osztály (pl. 8.A, 12.B): ");
+                osztaly = Console.ReadLine();
+
+                if (!EllenorizOsztalyFormatum(osztaly))
+                {
+                    Console.WriteLine("❌ Érvénytelen osztály formátum! Használd a következő formátumot: 8.A, 9.B, 12.C");
+                }
+            } while (!EllenorizOsztalyFormatum(osztaly));
+
+            return osztaly;
+        }
+
+        private string BeolvasOsztalyOpcionalis()
+        {
+            Console.Write("Osztály (opcionális, pl. 10.A osztályfőnök): ");
+            string osztaly = Console.ReadLine();
+
+            if (!string.IsNullOrEmpty(osztaly) && !EllenorizOsztalyFormatum(osztaly))
+            {
+                Console.WriteLine("❌ Érvénytelen osztály formátum! Használd a következő formátumot: 8.A, 9.B, 12.C");
+                return BeolvasOsztalyOpcionalis();
+            }
+
+            return osztaly;
+        }
+
+        private bool EllenorizOsztalyFormatum(string osztaly)
+        {
+            if (string.IsNullOrWhiteSpace(osztaly)) return false;
+
+            // Formátum: 8-12 évfolyam + . + betű (pl. 8.A, 12.C)
+            if (osztaly.Length < 3 || osztaly.Length > 4) return false;
+            if (!osztaly.Contains('.')) return false;
+
+            var reszek = osztaly.Split('.');
+            if (reszek.Length != 2) return false;
+
+            if (!int.TryParse(reszek[0], out int evfolyam)) return false;
+            if (evfolyam < 8 || evfolyam > 12) return false;
+            if (reszek[1].Length != 1 || !char.IsLetter(reszek[1][0])) return false;
+
+            return true;
+        }
+
+        private bool EllenorizTitkosKod()
+        {
+            Console.Write("Add meg a titkos kódot: ");
+            string kod = ReadPassword();
+
+            if (kod != titkosKod)
+            {
+                Console.WriteLine("❌ Hibás titkos kód! Regisztráció megszakítva.");
+                return false;
+            }
+
+            return true;
+        }
+
+        private string BeolvasGyerekFelhasznalonev()
+        {
+            Console.Write("Gyermeked felhasználóneve: ");
+            string gyerekFelh = Console.ReadLine();
+
+            var gyerek = felhasznalok.FirstOrDefault(f => f.Felhasznalonev == gyerekFelh && f.Szerepkor == "Diák");
+            if (gyerek == null)
+            {
+                Console.WriteLine("❌ Nem található ilyen diák! Először a gyermeket kell regisztrálni.");
+                return null;
+            }
+
+            return gyerekFelh;
         }
 
         private string ReadPassword()

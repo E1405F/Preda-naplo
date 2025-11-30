@@ -19,6 +19,58 @@ namespace Préda_naplo
             BetoltFajlbol();
         }
 
+        // HIÁNYZÓ METÓDUS: Felhasználók listájának visszaadása
+        public List<Felhasznalo> GetFelhasznalok()
+        {
+            return felhasznalok;
+        }
+
+        // HIÁNYZÓ METÓDUS: Osztályátlagok számítása
+        public Dictionary<string, double> GetOsztalyAtlagok()
+        {
+            var osztalyAtlagok = new Dictionary<string, double>();
+
+            var diakokOsztalySzerint = jegyek
+                .Where(j => felhasznalok.Any(f => f.Felhasznalonev == j.DiakFelhasznalonev && f.Szerepkor == "Diák"))
+                .GroupBy(j => {
+                    var diak = felhasznalok.FirstOrDefault(f => f.Felhasznalonev == j.DiakFelhasznalonev && f.Szerepkor == "Diák");
+                    return diak?.Osztaly ?? "Ismeretlen";
+                })
+                .Where(g => g.Key != "Ismeretlen");
+
+            foreach (var osztalyGroup in diakokOsztalySzerint)
+            {
+                if (osztalyGroup.Any())
+                {
+                    double atlag = osztalyGroup.Average(j => j.Ertek * j.Suly);
+                    osztalyAtlagok.Add(osztalyGroup.Key, atlag);
+                }
+            }
+
+            return osztalyAtlagok;
+        }
+
+        // HIÁNYZÓ METÓDUS: Diák statisztikák
+        public Dictionary<string, (double Atlag, int Hianyzasok)> GetDiakStatisztikak(HianyzasManager hianyzasManager)
+        {
+            var statisztikak = new Dictionary<string, (double, int)>();
+
+            var diakok = felhasznalok.Where(f => f.Szerepkor == "Diák");
+
+            foreach (var diak in diakok)
+            {
+                var diakJegyei = jegyek.Where(j => j.DiakFelhasznalonev == diak.Felhasznalonev);
+                double atlag = diakJegyei.Any() ? diakJegyei.Average(j => j.Ertek * j.Suly) : 0;
+
+                int hianyzasok = hianyzasManager.GetHianyzasokSzama(diak.Felhasznalonev);
+
+                string diakInfo = $"{diak.Nev} ({diak.Osztaly})";
+                statisztikak.Add(diakInfo, (atlag, hianyzasok));
+            }
+
+            return statisztikak;
+        }
+
         public void UjJegy(Felhasznalo tanar)
         {
             if (tanar.Szerepkor != "Tanár")
@@ -183,7 +235,7 @@ namespace Préda_naplo
                         Console.WriteLine($"  - {jegy}");
                     }
 
-                    
+
                     var atlag = tantargyGroup.Average(j => j.Ertek * j.Suly);
                     Console.WriteLine($"  Súlyozott átlag: {atlag:F2}");
                 }
@@ -222,8 +274,6 @@ namespace Préda_naplo
                 }
             }
         }
-
-        // Add hozzá a JegyManager osztályhoz ezeket a metódusokat:
 
         public void UjJegySullyal(Felhasznalo tanar)
         {
@@ -398,8 +448,5 @@ namespace Préda_naplo
         {
             File.WriteAllLines(fajlEleres, jegyek.Select(j => j.ToFileFormat()));
         }
-
-        // Frissítsd a BetoltFajlbol metódust:
-        
     }
 }

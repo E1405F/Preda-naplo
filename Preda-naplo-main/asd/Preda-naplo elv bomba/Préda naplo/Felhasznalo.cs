@@ -9,12 +9,13 @@ namespace Préda_naplo
     {
         public string Felhasznalonev { get; protected set; }
         private string jelszo;
-        public string Nev { get; protected set; }
+        public string Nev { get; set; }  // Legyen public set
         public string IskolaNev { get; protected set; }
         public string Szerepkor { get; protected set; }
-        public string Osztaly { get; protected set; }  // Új mező
-        public bool Letiltva { get; private set; }
+        public string Osztaly { get; protected set; }
+        public bool Letiltva { get; set; }  // Legyen public set
         private int hibasProbalkozasok;
+
 
         public Felhasznalo(string felhasznalonev, string jelszo, string nev, string iskolaNev, string szerepkor, string osztaly = "")
         {
@@ -133,6 +134,19 @@ namespace Préda_naplo
             }
 
             return lista;
+        }
+        // Add hozzá a Felhasznalo osztályhoz:
+
+        public virtual bool JelszoMegvaltoztatasa(string ujJelszo)
+        {
+            if (string.IsNullOrWhiteSpace(ujJelszo))
+            {
+                Console.WriteLine("❌ A jelszó nem lehet üres!");
+                return false;
+            }
+
+            this.jelszo = ujJelszo;
+            return true;
         }
     }
 }

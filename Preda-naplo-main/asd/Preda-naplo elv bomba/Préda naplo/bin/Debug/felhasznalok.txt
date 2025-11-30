@@ -1,5 +1,6 @@
-﻿Merész;123;Merész Bálint;Ganz;Tanár;12.EC
-Bence;123;Üveges Bence;Ganz;Diák;12.EC
+Merész;123;Merész Bálint;Ganz;Tanár;12.EC
+Bence;12345;Üveges Bence;Ganz;Diák;12.EC
 Erika;123;Üvegesné Erika;Ganz;Szülő;
 Anna;123;Kis-Nagy Annamária;Ganz;Igazgató;
 Zolkó;123;Horváth Zoltán (kancellár);Ganz;Adminisztrátor;
+Laci;123;Lacika;Ganz;Diák;11.A
