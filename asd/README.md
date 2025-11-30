@@ -1,1 +1,0 @@
-# Preda-naplo
