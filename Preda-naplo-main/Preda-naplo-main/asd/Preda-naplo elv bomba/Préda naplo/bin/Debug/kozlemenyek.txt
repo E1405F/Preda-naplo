@@ -1,0 +1,108 @@
+Anna;Mindenki;adó;2025.11.30 14:16
+Anna;Bence;sigma;2025.11.30 14:57;Merész
+Anna;Bence;sigma;2025.11.30 14:57;Bence
+Anna;Bence;sigma;2025.11.30 14:57;Erika
+Anna;Bence;sigma;2025.11.30 14:57;Anna
+Anna;Bence;sigma;2025.11.30 14:57;Zolkó
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Merész
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Bence
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Erika
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Anna
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Zolkó
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Laci
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;asd
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Pista
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;Oli
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;MolnarDavid
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;NagyLaura
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;TothBalazs
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;KissAdam
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SimonPeter
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;FarkasGergely
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;PapNorbert
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;LukacsDaniel
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;OláhMárk
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SzilagyiDavid
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;FeketeGabor
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;BaloghLevente
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SimonBela
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;TothKristof
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;NagyZoltan
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;MolnarRobert
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;KovacsAttila
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;VargaBence
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;FarkasGabor
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;BaloghMiklos
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SzaboEva
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;KovacsIren
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;HorvathGabor
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;VargaAniko
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;TakacsEdit
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;MeszarosKatalin
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;BaloghZsuzsa
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SzucsMaria
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;NagyEszter
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;TothJudit
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;FeherIldiko
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;MolnarAniko
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;KissEva
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;PappKatalin
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;FarkasIldiko
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;VargaGabriella
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SzaboKatalin
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;HorvathMaria
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;TothIstvan
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;NagyKatalin
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;KissMiklos
+Anna;Mindenki;Szarok vagytok;2025.11.30 20:52;SzaboGabor
+Anna;11.EC;sigma;2025.11.30 20:52;Merész
+Anna;11.EC;sigma;2025.11.30 20:52;Bence
+Anna;11.EC;sigma;2025.11.30 20:52;Erika
+Anna;11.EC;sigma;2025.11.30 20:52;Anna
+Anna;11.EC;sigma;2025.11.30 20:52;Zolkó
+Anna;11.EC;sigma;2025.11.30 20:52;Laci
+Anna;11.EC;sigma;2025.11.30 20:52;asd
+Anna;11.EC;sigma;2025.11.30 20:52;Pista
+Anna;11.EC;sigma;2025.11.30 20:52;Oli
+Anna;11.EC;sigma;2025.11.30 20:52;MolnarDavid
+Anna;11.EC;sigma;2025.11.30 20:52;NagyLaura
+Anna;11.EC;sigma;2025.11.30 20:52;TothBalazs
+Anna;11.EC;sigma;2025.11.30 20:52;KissAdam
+Anna;11.EC;sigma;2025.11.30 20:52;SimonPeter
+Anna;11.EC;sigma;2025.11.30 20:52;FarkasGergely
+Anna;11.EC;sigma;2025.11.30 20:52;PapNorbert
+Anna;11.EC;sigma;2025.11.30 20:52;LukacsDaniel
+Anna;11.EC;sigma;2025.11.30 20:52;OláhMárk
+Anna;11.EC;sigma;2025.11.30 20:52;SzilagyiDavid
+Anna;11.EC;sigma;2025.11.30 20:52;FeketeGabor
+Anna;11.EC;sigma;2025.11.30 20:52;BaloghLevente
+Anna;11.EC;sigma;2025.11.30 20:52;SimonBela
+Anna;11.EC;sigma;2025.11.30 20:52;TothKristof
+Anna;11.EC;sigma;2025.11.30 20:52;NagyZoltan
+Anna;11.EC;sigma;2025.11.30 20:52;MolnarRobert
+Anna;11.EC;sigma;2025.11.30 20:52;KovacsAttila
+Anna;11.EC;sigma;2025.11.30 20:52;VargaBence
+Anna;11.EC;sigma;2025.11.30 20:52;FarkasGabor
+Anna;11.EC;sigma;2025.11.30 20:52;BaloghMiklos
+Anna;11.EC;sigma;2025.11.30 20:52;SzaboEva
+Anna;11.EC;sigma;2025.11.30 20:52;KovacsIren
+Anna;11.EC;sigma;2025.11.30 20:52;HorvathGabor
+Anna;11.EC;sigma;2025.11.30 20:52;VargaAniko
+Anna;11.EC;sigma;2025.11.30 20:52;TakacsEdit
+Anna;11.EC;sigma;2025.11.30 20:52;MeszarosKatalin
+Anna;11.EC;sigma;2025.11.30 20:52;BaloghZsuzsa
+Anna;11.EC;sigma;2025.11.30 20:52;SzucsMaria
+Anna;11.EC;sigma;2025.11.30 20:52;NagyEszter
+Anna;11.EC;sigma;2025.11.30 20:52;TothJudit
+Anna;11.EC;sigma;2025.11.30 20:52;FeherIldiko
+Anna;11.EC;sigma;2025.11.30 20:52;MolnarAniko
+Anna;11.EC;sigma;2025.11.30 20:52;KissEva
+Anna;11.EC;sigma;2025.11.30 20:52;PappKatalin
+Anna;11.EC;sigma;2025.11.30 20:52;FarkasIldiko
+Anna;11.EC;sigma;2025.11.30 20:52;VargaGabriella
+Anna;11.EC;sigma;2025.11.30 20:52;SzaboKatalin
+Anna;11.EC;sigma;2025.11.30 20:52;HorvathMaria
+Anna;11.EC;sigma;2025.11.30 20:52;TothIstvan
+Anna;11.EC;sigma;2025.11.30 20:52;NagyKatalin
+Anna;11.EC;sigma;2025.11.30 20:52;KissMiklos
+Anna;11.EC;sigma;2025.11.30 20:52;SzaboGabor

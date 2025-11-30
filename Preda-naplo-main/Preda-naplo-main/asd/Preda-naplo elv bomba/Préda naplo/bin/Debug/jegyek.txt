@@ -1,0 +1,127 @@
+// 12.EC osztály diákjai - MolnarDavid
+MolnarDavid;TothIstvan;Matematika;4;2024.11.15;Jo munka;1.5;False;;False
+MolnarDavid;TothIstvan;Történelem;3;2024.11.20;;2.0;False;;False
+MolnarDavid;TothIstvan;Fizika;5;2024.11.25;Kiváló;1.0;False;;False
+MolnarDavid;TothIstvan;Magyar;4;2024.11.28;;3.0;False;;False
+MolnarDavid;TothIstvan;Angol;2;2024.12.01;Gyakorolni kell;1.0;False;;False
+
+// 12.EC osztály diákjai - NagyLaura
+NagyLaura;TothIstvan;Matematika;5;2024.11.16;Kiváló;2.0;False;;False
+NagyLaura;TothIstvan;Történelem;4;2024.11.21;Jo munka;1.0;False;;False
+NagyLaura;TothIstvan;Fizika;3;2024.11.26;;1.5;False;;False
+NagyLaura;TothIstvan;Magyar;5;2024.11.29;Kiváló;3.0;False;;False
+
+// 12.EC osztály diákjai - TothBalazs
+TothBalazs;TothIstvan;Matematika;3;2024.11.17;;1.0;False;;False
+TothBalazs;TothIstvan;Történelem;2;2024.11.22;Gyakorolni kell;2.0;False;;False
+TothBalazs;TothIstvan;Fizika;4;2024.11.27;Jo munka;1.5;False;;False
+TothBalazs;TothIstvan;Magyar;3;2024.11.30;;3.0;False;;False
+TothBalazs;TothIstvan;Angol;5;2024.12.02;Kiváló;1.0;False;;False
+
+// 12.EC osztály diákjai - KissAdam
+KissAdam;TothIstvan;Matematika;2;2024.11.18;Gyakorolni kell;1.5;False;;False
+KissAdam;TothIstvan;Történelem;4;2024.11.23;Jo munka;2.0;False;;False
+KissAdam;TothIstvan;Fizika;3;2024.11.28;;1.0;False;;False
+KissAdam;TothIstvan;Angol;4;2024.12.03;Jo munka;3.0;False;;False
+
+// 12.EC osztály diákjai - SimonPeter
+SimonPeter;TothIstvan;Matematika;5;2024.11.19;Kiváló;1.0;False;;False
+SimonPeter;TothIstvan;Történelem;3;2024.11.24;;2.0;False;;False
+SimonPeter;TothIstvan;Fizika;4;2024.11.29;Jo munka;1.5;False;;False
+SimonPeter;TothIstvan;Magyar;2;2024.12.04;Gyakorolni kell;3.0;False;;False
+
+// 11.A osztály diákjai - FarkasGergely
+FarkasGergely;NagyKatalin;Matematika;4;2024.11.15;Jo munka;2.0;False;;False
+FarkasGergely;NagyKatalin;Történelem;3;2024.11.20;;1.0;False;;False
+FarkasGergely;NagyKatalin;Fizika;5;2024.11.25;Kiváló;3.0;False;;False
+FarkasGergely;NagyKatalin;Magyar;4;2024.11.28;;1.5;False;;False
+FarkasGergely;NagyKatalin;Angol;2;2024.12.01;Gyakorolni kell;1.0;False;;False
+
+// 11.A osztály diákjai - PapNorbert
+PapNorbert;NagyKatalin;Matematika;5;2024.11.16;Kiváló;1.0;False;;False
+PapNorbert;NagyKatalin;Történelem;4;2024.11.21;Jo munka;2.0;False;;False
+PapNorbert;NagyKatalin;Fizika;3;2024.11.26;;1.5;False;;False
+PapNorbert;NagyKatalin;Magyar;5;2024.11.29;Kiváló;3.0;False;;False
+
+// 11.A osztály diákjai - LukacsDaniel
+LukacsDaniel;NagyKatalin;Matematika;3;2024.11.17;;2.0;False;;False
+LukacsDaniel;NagyKatalin;Történelem;2;2024.11.22;Gyakorolni kell;1.0;False;;False
+LukacsDaniel;NagyKatalin;Fizika;4;2024.11.27;Jo munka;3.0;False;;False
+LukacsDaniel;NagyKatalin;Magyar;3;2024.11.30;;1.5;False;;False
+LukacsDaniel;NagyKatalin;Angol;5;2024.12.02;Kiváló;1.0;False;;False
+
+// 11.A osztály diákjai - OláhMárk
+OláhMárk;NagyKatalin;Matematika;2;2024.11.18;Gyakorolni kell;3.0;False;;False
+OláhMárk;NagyKatalin;Történelem;4;2024.11.23;Jo munka;1.0;False;;False
+OláhMárk;NagyKatalin;Fizika;3;2024.11.28;;2.0;False;;False
+OláhMárk;NagyKatalin;Angol;4;2024.12.03;Jo munka;1.5;False;;False
+
+// 11.A osztály diákjai - SzilagyiDavid
+SzilagyiDavid;NagyKatalin;Matematika;5;2024.11.19;Kiváló;2.0;False;;False
+SzilagyiDavid;NagyKatalin;Történelem;3;2024.11.24;;1.5;False;;False
+SzilagyiDavid;NagyKatalin;Fizika;4;2024.11.29;Jo munka;1.0;False;;False
+SzilagyiDavid;NagyKatalin;Magyar;2;2024.12.04;Gyakorolni kell;3.0;False;;False
+
+// 11.K osztály diákjai - FeketeGabor
+FeketeGabor;KissMiklos;Matematika;4;2024.11.15;Jo munka;3.0;False;;False
+FeketeGabor;KissMiklos;Történelem;3;2024.11.20;;1.0;False;;False
+FeketeGabor;KissMiklos;Fizika;5;2024.11.25;Kiváló;2.0;False;;False
+FeketeGabor;KissMiklos;Magyar;4;2024.11.28;;1.5;False;;False
+FeketeGabor;KissMiklos;Angol;2;2024.12.01;Gyakorolni kell;1.0;False;;False
+
+// 11.K osztály diákjai - BaloghLevente
+BaloghLevente;KissMiklos;Matematika;5;2024.11.16;Kiváló;1.5;False;;False
+BaloghLevente;KissMiklos;Történelem;4;2024.11.21;Jo munka;2.0;False;;False
+BaloghLevente;KissMiklos;Fizika;3;2024.11.26;;1.0;False;;False
+BaloghLevente;KissMiklos;Magyar;5;2024.11.29;Kiváló;3.0;False;;False
+
+// 11.K osztály diákjai - SimonBela
+SimonBela;KissMiklos;Matematika;3;2024.11.17;;2.0;False;;False
+SimonBela;KissMiklos;Történelem;2;2024.11.22;Gyakorolni kell;3.0;False;;False
+SimonBela;KissMiklos;Fizika;4;2024.11.27;Jo munka;1.0;False;;False
+SimonBela;KissMiklos;Magyar;3;2024.11.30;;1.5;False;;False
+SimonBela;KissMiklos;Angol;5;2024.12.02;Kiváló;1.0;False;;False
+
+// 11.K osztály diákjai - TothKristof
+TothKristof;KissMiklos;Matematika;2;2024.11.18;Gyakorolni kell;1.0;False;;False
+TothKristof;KissMiklos;Történelem;4;2024.11.23;Jo munka;2.0;False;;False
+TothKristof;KissMiklos;Fizika;3;2024.11.28;;3.0;False;;False
+TothKristof;KissMiklos;Angol;4;2024.12.03;Jo munka;1.5;False;;False
+
+// 11.K osztály diákjai - NagyZoltan
+NagyZoltan;KissMiklos;Matematika;5;2024.11.19;Kiváló;2.0;False;;False
+NagyZoltan;KissMiklos;Történelem;3;2024.11.24;;1.5;False;;False
+NagyZoltan;KissMiklos;Fizika;4;2024.11.29;Jo munka;1.0;False;;False
+NagyZoltan;KissMiklos;Magyar;2;2024.12.04;Gyakorolni kell;3.0;False;;False
+
+// 10.B osztály diákjai - MolnarRobert
+MolnarRobert;SzaboGabor;Matematika;4;2024.11.15;Jo munka;1.5;False;;False
+MolnarRobert;SzaboGabor;Történelem;3;2024.11.20;;2.0;False;;False
+MolnarRobert;SzaboGabor;Fizika;5;2024.11.25;Kiváló;1.0;False;;False
+MolnarRobert;SzaboGabor;Magyar;4;2024.11.28;;3.0;False;;False
+MolnarRobert;SzaboGabor;Angol;2;2024.12.01;Gyakorolni kell;1.0;False;;False
+
+// 10.B osztály diákjai - KovacsAttila
+KovacsAttila;SzaboGabor;Matematika;5;2024.11.16;Kiváló;2.0;False;;False
+KovacsAttila;SzaboGabor;Történelem;4;2024.11.21;Jo munka;1.0;False;;False
+KovacsAttila;SzaboGabor;Fizika;3;2024.11.26;;1.5;False;;False
+KovacsAttila;SzaboGabor;Magyar;5;2024.11.29;Kiváló;3.0;False;;False
+
+// 10.B osztály diákjai - VargaBence
+VargaBence;SzaboGabor;Matematika;3;2024.11.17;;1.0;False;;False
+VargaBence;SzaboGabor;Történelem;2;2024.11.22;Gyakorolni kell;2.0;False;;False
+VargaBence;SzaboGabor;Fizika;4;2024.11.27;Jo munka;1.5;False;;False
+VargaBence;SzaboGabor;Magyar;3;2024.11.30;;3.0;False;;False
+VargaBence;SzaboGabor;Angol;5;2024.12.02;Kiváló;1.0;False;;False
+
+// 10.B osztály diákjai - FarkasGabor
+FarkasGabor;SzaboGabor;Matematika;2;2024.11.18;Gyakorolni kell;1.5;False;;False
+FarkasGabor;SzaboGabor;Történelem;4;2024.11.23;Jo munka;2.0;False;;False
+FarkasGabor;SzaboGabor;Fizika;3;2024.11.28;;1.0;False;;False
+FarkasGabor;SzaboGabor;Angol;4;2024.12.03;Jo munka;3.0;False;;False
+
+// 10.B osztály diákjai - BaloghMiklos
+BaloghMiklos;SzaboGabor;Matematika;5;2024.11.19;Kiváló;1.0;False;;False
+BaloghMiklos;SzaboGabor;Történelem;3;2024.11.24;;2.0;False;;False
+BaloghMiklos;SzaboGabor;Fizika;4;2024.11.29;Jo munka;1.5;False;;False
+BaloghMiklos;SzaboGabor;Magyar;2;2024.12.04;Gyakorolni kell;3.0;False;;False

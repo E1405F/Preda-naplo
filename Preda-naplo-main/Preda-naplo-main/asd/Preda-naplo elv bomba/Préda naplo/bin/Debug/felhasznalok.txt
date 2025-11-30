@@ -1,0 +1,52 @@
+Anna;123;Kis-Nagy Annamária;Ganz;Igazgató;
+Zolkó;123;Horváth Zoltán (kancellár);Ganz;Adminisztrátor;
+
+MolnarDavid;123;Molnár Dávid;Ganz;Diák;12.EC
+NagyLaura;123;Nagy Laura;Ganz;Diák;12.EC
+TothBalazs;123;Tóth Balázs;Ganz;Diák;12.EC
+KissAdam;123;Kiss Ádám;Ganz;Diák;12.EC
+SimonPeter;123;Simon Péter;Ganz;Diák;12.EC
+
+
+FarkasGergely;123;Farkas Gergely;Ganz;Diák;11.A
+PapNorbert;123;Pap Norbert;Ganz;Diák;11.A
+LukacsDaniel;123;Lukács Dániel;Ganz;Diák;11.A
+OláhMárk;123;Oláh Márk;Ganz;Diák;11.A
+SzilagyiDavid;123;Szilágyi Dávid;Ganz;Diák;11.A
+
+
+FeketeGabor;123;Fekete Gábor;Ganz;Diák;11.K
+BaloghLevente;123;Balogh Levente;Ganz;Diák;11.K
+SimonBela;123;Simon Béla;Ganz;Diák;11.K
+TothKristof;123;Tóth Kristóf;Ganz;Diák;11.K
+NagyZoltan;123;Nagy Zoltán;Ganz;Diák;11.K
+
+MolnarRobert;123;Molnár Róbert;Ganz;Diák;10.B
+KovacsAttila;123;Kovács Attila;Ganz;Diák;10.B
+VargaBence;123;Varga Bence;Ganz;Diák;10.B
+FarkasGabor;123;Farkas Gábor;Ganz;Diák;10.B
+BaloghMiklos;123;Balogh Miklós;Ganz;Diák;10.B
+
+SzaboEva;123;Szabó Éva;Ganz;Szülő;
+KovacsIren;123;Kovács Iren;Ganz;Szülő;
+HorvathGabor;123;Horváth Gábor;Ganz;Szülő;
+VargaAniko;123;Varga Anikó;Ganz;Szülő;
+TakacsEdit;123;Takács Edit;Ganz;Szülő;
+MeszarosKatalin;123;Mészáros Katalin;Ganz;Szülő;
+BaloghZsuzsa;123;Balogh Zsuzsa;Ganz;Szülő;
+SzucsMaria;123;Szűcs Mária;Ganz;Szülő;
+NagyEszter;123;Nagy Eszter;Ganz;Szülő;
+TothJudit;123;Tóth Judit;Ganz;Szülő;
+FeherIldiko;123;Fehér Ildikó;Ganz;Szülő;
+MolnarAniko;123;Molnár Anikó;Ganz;Szülő;
+KissEva;123;Kiss Éva;Ganz;Szülő;
+PappKatalin;123;Papp Katalin;Ganz;Szülő;
+FarkasIldiko;123;Farkas Ildikó;Ganz;Szülő;
+VargaGabriella;123;Varga Gabriella;Ganz;Szülő;
+SzaboKatalin;123;Szabó Katalin;Ganz;Szülő;
+HorvathMaria;123;Horváth Mária;Ganz;Szülő;
+
+Merész;123;Merész Bálint;Ganz;Tanár;12.EC
+NagyKatalin;123;Nagy Katalin;Ganz;Tanár;11.A
+KissMiklos;123;Kiss Miklós;Ganz;Tanár;11.K
+SzaboGabor;123;Szabó Gábor;Ganz;Tanár;10.B

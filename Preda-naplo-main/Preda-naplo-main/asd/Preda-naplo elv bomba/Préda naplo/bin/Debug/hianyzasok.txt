@@ -1,0 +1,3 @@
+asd;Merész;2025.11.30;MAtek;True
+NagyLaura;Merész;2025.11.30;Matek;True
+NagyLaura;Merész;2000.11.11;Kémia;False
