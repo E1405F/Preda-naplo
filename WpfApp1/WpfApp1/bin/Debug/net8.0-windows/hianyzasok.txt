@@ -1,0 +1,2 @@
+asd;Merész;2025.11.30;MAtek;True
+asd;Merész;2026.03.25;asd;True

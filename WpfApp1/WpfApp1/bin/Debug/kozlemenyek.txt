@@ -1,0 +1,6 @@
+Anna;Mindenki;adó;2025.11.30 14:16
+Anna;Bence;sigma;2025.11.30 14:57;Merész
+Anna;Bence;sigma;2025.11.30 14:57;Bence
+Anna;Bence;sigma;2025.11.30 14:57;Erika
+Anna;Bence;sigma;2025.11.30 14:57;Anna
+Anna;Bence;sigma;2025.11.30 14:57;Zolkó
