@@ -1,1 +1,0 @@
-Préda pedo
