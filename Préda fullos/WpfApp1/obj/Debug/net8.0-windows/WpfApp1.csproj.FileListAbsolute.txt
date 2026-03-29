@@ -1,0 +1,59 @@
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Préda napló\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.exe
+D:\Préda napló\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.deps.json
+D:\Préda napló\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
+D:\Préda napló\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.dll
+D:\Préda napló\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.pdb
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
+D:\Préda napló\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.exe
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.deps.json
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\nemon\Desktop\Preda-naplo-main\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.exe
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.deps.json
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\JelszoValtoztatasDialog.baml
+C:\Users\norbi\Downloads\Preda-naplo-main\Préda WPF v2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\JelszoValtoztatasDialog.g.cs

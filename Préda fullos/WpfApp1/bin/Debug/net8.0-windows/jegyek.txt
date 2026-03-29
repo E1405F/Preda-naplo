@@ -1,0 +1,2 @@
+Laszlo;Merész;Történelem;2;2026.03.25;hehe;1;False;;False
+Bogesz;Merész;Matematika;5;2026.03.29;Fogyni kene;1;False;;False
