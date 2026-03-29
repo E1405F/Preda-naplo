@@ -1076,6 +1076,11 @@ namespace PredaNaplo
                 BorderBrush = (Brush)FindResource("PrimaryColor") // vagy egy szín
             };
             schoolCombo.Items.Add("Ganz Ábrahám Két Tanítási Nyelvű Technikum");
+            schoolCombo.Items.Add("Csány László Közgazdasági Technikum");
+            schoolCombo.Items.Add("Zalaegerszegi Zrínyi Miklós Gimnázium");
+            schoolCombo.Items.Add("Zalaegerszegi Kölcsey Ferenc Gimnázium");
+            schoolCombo.Items.Add("Széchenyi István Technikum");
+            schoolCombo.Items.Add("Munkácsy Mihály Technikum");
             schoolCombo.SelectedIndex = 0;
             mainStack.Children.Add(schoolCombo);
 
@@ -1112,7 +1117,7 @@ namespace PredaNaplo
 
             // Tantárgyak panel (Tanár esetén)
             var tantargyPanel = new StackPanel { Visibility = Visibility.Collapsed, Margin = new Thickness(0, 10, 0, 0) };
-            var tantargyText = new TextBlock { Text = "Tantárgyak (Ctrl+kattintás több választáshoz):", Margin = new Thickness(0, 10, 0, 5) };
+            var tantargyText = new TextBlock { Text = "Tantárgyak:", Margin = new Thickness(0, 10, 0, 5) };
             var tantargyListBox = new ListBox
             {
                 Style = GetStyle("ModernListBox"),
@@ -1138,7 +1143,7 @@ namespace PredaNaplo
             mainStack.Children.Add(message);
 
             var buttonPanel = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Center, Margin = new Thickness(0, 20, 0, 0) };
-            var saveBtn = new Button { Content = "Regisztrálás", Style = GetStyle("ModernButton"), Width = 100 };
+            var saveBtn = new Button { Content = "Regisztrálás", Style = GetStyle("ModernButton"), Width = 130 };
             var cancelBtn = new Button { Content = "Mégse", Style = GetStyle("DangerButton"), Width = 100, Margin = new Thickness(10, 0, 0, 0) };
             buttonPanel.Children.Add(saveBtn);
             buttonPanel.Children.Add(cancelBtn);
@@ -1947,6 +1952,7 @@ namespace PredaNaplo
             if (LoginUsername != null) LoginUsername.Text = "";
             if (LoginPassword != null) LoginPassword.Password = "";
             if (LoginMessage != null) LoginMessage.Text = "";
+            if (UserInfoText != null) UserInfoText.Text = "";
         }
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)

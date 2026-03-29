@@ -19,3 +19,5 @@ Attila;123;Sántha Attila;Ganz;Diák;12.EC;
 Gabor;123;Tóth Gábor;Ganz;Diák;12.EC;
 Zalan;123;Fenyvesi Zalán;Ganz;Diák;12.EC;
 Fülöp;123;Fülöp Ádám;Ganz;Diák;12.EC;
+Adrienn;123;End of the forest Adrienn;Ganz Ábrahám Két Tanítási Nyelvű Technikum;Tanár;10.A;Német,Testnevelés,Asztali alkalmazások fejlesztése,Szoftver tesztelés,Webprogramozás,IKT projektmunka
+Pali;123;Pál;Széchenyi István Technikum;Diák;9.A;
