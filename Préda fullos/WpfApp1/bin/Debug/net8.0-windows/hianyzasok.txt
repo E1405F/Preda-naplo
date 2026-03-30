@@ -1,6 +1,0 @@
-asd;Merész;2025.11.30;MAtek;True
-asd;Merész;2026.03.25;asd;True
-Bence;Merész;2026.03.25;Matek;True
-Csupo;Meresz;2026.03.25;Történelem;True
-Laszlo;Merész;2026.03.25;Történelem;True
-Bogesz;Merész;2026.03.29;Történelem;True
