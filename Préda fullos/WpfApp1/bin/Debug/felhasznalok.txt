@@ -1,0 +1,5 @@
+Meresz;123;Merész Bálint;Ganz;Tanár;12.EC;Matematika,Történelem,Testnevelés
+Anna;123;Kis-Nagy Annamária;Ganz;Igazgató;;;
+Zolko;123;Horváth Zoltán;Ganz;Adminisztrátor;;;
+Alex;123;Sziszojev Alex;Ganz;Diák;12.EC;Matematika,Magyar nyelv és irodalom,Állampolgári ismeretek,Történelem,Angol,Szakmai Angol,Német,Testnevelés,Asztali alkalmazások fejlesztése,IKT projektmunka,Szoftver tesztelés,Webprogramozás
+Bence;123;Üveges Bence;Ganz;Diák;12.EC;Matematika,Magyar nyelv és irodalom,Állampolgári ismeretek,Történelem,Angol,Szakmai Angol,Német,Testnevelés,Asztali alkalmazások fejlesztése,IKT projektmunka,Szoftver tesztelés,Webprogramozás
